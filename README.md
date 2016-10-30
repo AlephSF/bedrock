@@ -1,3 +1,6 @@
+# Bedrock, Sage and Capistrano
+This package includes the base setup for WordPress projects at Aleph, and includes our current recommended workflow for dependency management via Bedrock(Composer), the Sage starter theme, and deployments to remote environments via Capistrano. Official docs for Bedrock are below. 
+
 # [Bedrock](https://roots.io/bedrock/)
 [![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/roots/bedrock)
 [![Build Status](https://img.shields.io/travis/roots/bedrock.svg?style=flat-square)](https://travis-ci.org/roots/bedrock)
