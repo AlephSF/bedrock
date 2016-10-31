@@ -7,6 +7,15 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.4"
+    "normalize-scss": "normalize.scss#^6.0.0",
+    "neat": "^1.8.0"
+  },
+  "overrides": {
+    "normalize-scss": {
+      "main": [
+        "./sass/normalize/_import-now.scss"
+      ],
+      "dependencies": {}
+    }
   }
 }

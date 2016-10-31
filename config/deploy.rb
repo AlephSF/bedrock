@@ -98,4 +98,4 @@ end
 # The above update_option_paths task is not run by default
 # Make sure you set the theme directory name if you change it from the default
 # Uncomment the following line to run it on deploys if needed
-# after 'deploy:updated', 'deploy:assets'
+after 'deploy:updated', 'deploy:assets'
